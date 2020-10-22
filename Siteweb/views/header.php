@@ -20,7 +20,10 @@
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 <link rel="stylesheet" href="src/assets/css/style.css">
+<link rel="stylesheet" href="src/assets/css/style.scss">
 </head>
+<body>
+  <header>
 <!-- FIN DU HEAD !-->
 <!-- Sidenav qui réagit avec un trigger
 Au clic sur l'icône, elle apparaît.!-->
@@ -38,12 +41,13 @@ Au clic sur l'icône, elle apparaît.!-->
       <div class=" nav-wrapper">
        <!-- Icone du trigger !-->
       <a href="#" data-target="slide-out" class="button-collapse sidenav-trigger show-on-large"><i class="text-black large material-icons">menu</i></a>
-        <a href="#!" class="brand-logo"><img src="src/assets/img/logo.png"></a>
+        <a href="#!" class="brand-logo"><img src="src/assets/img/logo.png" alt="logo de la societé Arras nettoyage"></a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="sass.html">Prestations</a></li>
-          <li><a href="badges.html">Contact</a></li>
+          <li><a href="sass.html">06.08.84.94.19</a></li>
+          <li><a href="badges.html">arras.nettoyage@orange.fr</a></li>
       
         </ul>
       </div>
     </nav>
   </div>
+</header>

@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', function(options) {
     var elems = document.querySelectorAll('.sidenav');
     var instances = M.Sidenav.init(elems, options);
   });
-
   function goBack() {
     window.history.go(-1);
   }
@@ -13,3 +12,7 @@ document.addEventListener('DOMContentLoaded', function(options) {
   });
 
   AOS.init();
+
+  $(document).ready(function() {
+    $('input#input_text, textarea#textarea1').characterCounter();
+  });
